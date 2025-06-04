@@ -1,0 +1,37 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin-top: 100px;
+  background-color: cadetblue;
+}
+
+
+   .box {
+      width: 70%;
+      border: 2px solid black;
+      margin: 20px auto; /* Center horizontally */
+      padding: 20px;     /* Optional: space inside */
+      background-color: aqua;
+    }
+
+  
+
+#count {
+  font-size: 48px;
+  color: rgb(1, 1, 18);
+}
+#btn {
+  padding: 10px 20px;
+  font-size: 20px;
+  background-color: brown;
+}
+#resetBtn {
+  padding: 10px 20px;
+  font-size: 20px;
+  margin-left: 10px;
+  background-color: brown;
+}
+#count.flash {
+  transition: color 0.2s ease;
+  color: green;
+}
